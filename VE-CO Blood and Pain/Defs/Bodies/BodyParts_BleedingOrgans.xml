@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<Override.Def Type="BodyPartDef" Target="LeftLung">
+    <bleedingRateMultiplier>3</bleedingRateMultiplier>
+</Override.Def>
+
+
+<Override.Def Type="BodyPartDef" Target="RightLung">
+    <bleedingRateMultiplier>3</bleedingRateMultiplier>
+</Override.Def>
+
+
+<Override.Def Type="BodyPartDef" Target="RightKidney">
+    <bleedingRateMultiplier>3</bleedingRateMultiplier>
+</Override.Def>
+
+<Override.Def Type="BodyPartDef" Target="LeftKidney">
+    <bleedingRateMultiplier>3</bleedingRateMultiplier>
+</Override.Def>
+
+
+<Override.Def Type="BodyPartDef" Target="Liver">
+    <bleedingRateMultiplier>3</bleedingRateMultiplier>
+</Override.Def>
+
+<Override.Def Type="BodyPartDef" Target="Stomach">
+    <bleedingRateMultiplier>3</bleedingRateMultiplier>
+</Override.Def>
+
+
+</Defs>

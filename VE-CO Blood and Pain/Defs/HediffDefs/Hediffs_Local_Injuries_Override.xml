@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HediffDefs>
+
+  <!-- Missing body part -->
+
+  
+  
+<Override.Def Type="HediffDef" Target="MissingBodyPart">
+    <injuryProps Mode="Replace">
+      <bleedRate>0.35</bleedRate>
+      <painPerSeverity>0.0375</painPerSeverity>
+    </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Misc">
+    <injuryProps Mode="Replace">
+      <bleedRate>0.09</bleedRate>
+      <painPerSeverity>0.025</painPerSeverity>
+      <canMerge>false</canMerge>
+      <destroyedLabel>Destroyed</destroyedLabel>
+    </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Burn">
+     <injuryProps Mode="Replace">
+      <painPerSeverity>0.025</painPerSeverity>
+			<destroyedLabel>Burned off</destroyedLabel>
+			<destroyedOutLabel>Burned out</destroyedOutLabel>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Crush">
+     <injuryProps Mode="Replace">
+      <bleedRate>0.045</bleedRate>
+      <painPerSeverity>0.0245</painPerSeverity>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Crushed</destroyedLabel>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Crack">
+     <injuryProps Mode="Replace">
+      <painPerSeverity>0.04</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <destroyedLabel>Shattered</destroyedLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+
+<Override.Def Type="HediffDef" Target="Cut">
+     <injuryProps Mode="Replace">
+      <bleedRate>0.09</bleedRate>
+      <painPerSeverity>0.025</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+	 </injuryProps>
+</Override.Def>
+
+<Override.Def Type="HediffDef" Target="SurgicalCut">
+     <injuryProps Mode="Replace">
+      <bleedRate>0.09</bleedRate>
+      <painPerSeverity>0.025</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<canMerge>false</canMerge>
+			<useRemovedLabel>true</useRemovedLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Scratch">
+     <injuryProps Mode="Replace">
+      <bleedRate>0.045</bleedRate>
+      <painPerSeverity>0.025</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Torn off</destroyedLabel>
+			<destroyedOutLabel>Torn out</destroyedOutLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Bite">
+     <injuryProps Mode="Replace">
+      <painPerSeverity>0.025</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <bleedRate>0.06</bleedRate>
+	  <canMerge>false</canMerge>
+			<destroyedLabel>Bitten off</destroyedLabel>
+			<destroyedOutLabel>Bitten out</destroyedOutLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Stab">
+     <injuryProps Mode="Replace">
+      <bleedRate>0.105</bleedRate>
+      <painPerSeverity>0.025</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Gunshot">
+<injuryProps Mode="Replace">     
+      <bleedRate>0.12</bleedRate>
+      <painPerSeverity>0.025</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Shot off</destroyedLabel>
+			<destroyedOutLabel>Shot out</destroyedOutLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Shredded">
+     <injuryProps Mode="Replace">
+      <bleedRate>0.12</bleedRate>
+      <painPerSeverity>0.025</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<canMerge>true</canMerge>
+			<destroyedLabel>Torn off</destroyedLabel>
+			<destroyedOutLabel>Torn out</destroyedOutLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Bruise">
+<injuryProps Mode="Replace">     
+      <painPerSeverity>0.035</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Destroyed</destroyedLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+<Override.Def Type="HediffDef" Target="Frostbite">
+     <injuryProps Mode="Replace">
+      <painPerSeverity>0.035</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Lost to frostbite</destroyedLabel>
+	 </injuryProps>
+</Override.Def>
+
+
+</HediffDefs>
